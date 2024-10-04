@@ -53,24 +53,3 @@ document.addEventListener("keydown", event => {
     }
 });
 
-
-// createBtn.addEventListener("click", () => {
-//     let inputBox = document.createElement("p");
-//     let img = document.createElement("img");
-    
-//     inputBox.className = "input-box";
-//     inputBox.setAttribute("contenteditable", true);
-    
-//     img.src = "delete.png";
-//     img.alt = "Delete"; // Add alt text for accessibility
-
-//     // Append the input box to the container
-//     notesContainer.appendChild(inputBox);
-//     // Append the image to the input box
-//     inputBox.appendChild(img);
-
-//     // Optional: Add event listener to delete the input box when the image is clicked
-//     img.addEventListener("click", () => {
-//         notesContainer.removeChild(inputBox);
-//     });
-// });
